@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MS Word</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        inse
+
+        /* Body Styling */
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f5f7fa;
+            color: #0c0c0c;
+            line-height: 1.6;
+        }
+
+        .insert{
+            color: #ffffff;
+        }
+
+        h1{
+            color: rgb(237, 8, 8);
+        }
+
+        h3{
+            font-size: 20px;
+            color: #003af7;
+        }
+
+        p{
+            font-family:sans-serif;
+            font-size: 20px;
+            color: #000000;
+            
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #004aad;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Container for Cards */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px;
+            gap: 10px;
+        }
+
+        /* Card Styling */
+        .card {
+            background: white;
+            border: 2.5px solid #ccc;
+            border-radius: 15px;
+            width: 80%;
+            padding: 15px;
+            box-shadow: 0 5px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #004aad;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="insert">Page Layout Tab</h1>
+        
+    </header>
+
+    <main class="container">
+        <div class="card">
+            <h1> Page Layout Tab के मुख्य Groups और उनकी परिभाषाएँ:</h1><br>
+            <p> Layout Tab दस्तावेज़ की पेज सेटिंग्स और लेआउट को कंट्रोल करने के लिए इस्तेमाल किया जाता है। यह टैब मुख्यतः डॉक्यूमेंट के पेज साइज़, मार्जिन, ओरिएंटेशन, इंडेंटेशन, लाइन स्पेसिंग आदि से संबंधित सेटिंग्स के लिए होता है। </p><br>
+            
+           <h1> 1. Page Setup Group और उनकी परिभाषाएँ: <h1>
+
+            <h3>1.Margins: </h3> <p> Margins	पेज के चारों ओर की खाली जगह सेट करता है (Top, Bottom, Left, Right)। इसमें predefined options होते हैं: Normal, Narrow, Moderate, Wide आदि। Custom Margins भी सेट कर सकते हैं। </p>
+
+            <h3>2.Orientation:</h3> <p> Orientation	पेज की दिशा सेट करता है:🔸 Portrait 🔸 Landscape  </p>
+
+            <h3>3.Size	: </h3> <p> पेज का साइज़ सेट करता है जैसे A4, Letter, Legal आदि। Custom size भी सेट किया जा सकता है। </p>
+
+            <h3>4.Columns:</h3> <p> टेक्स्ट को एक से अधिक कॉलम में बांटता है (जैसे न्यूज़पेपर स्टाइल)। आप 1, 2, 3 या custom columns सेट कर सकते हैं। </p>
+
+            <h3>5.Breaks: </h3> <p> डॉक्यूमेंट में ब्रेक डालने के लिए:🔹 Page Break🔹 Section Break (Next Page, Continuous, Even Page, Odd Page)🔹 Column Break आदि। </p>
+
+            <h3> 6. Line Numbers: </h3> <p> हर लाइन के आगे नंबर डालता है, Useful in legal documents. </p>
+
+            <h3>7.Hyphenation: </h3> <p>शब्दों को पंक्ति के अंत में विभाजित करता है (Auto, Manual, None)। इससे टेक्स्ट justify करने में मदद मिलती है। </p>
+
+        </div>   
+                                
+    </main>
+
+    <main class="container">
+        <div class="card">
+            <h1>  Paragraph Group और उनकी परिभाषाएँ:</h1> <p>यह ग्रुप पैराग्राफ की Formatting और Alignment से संबंधित होता है।<p><br>
+
+            <h3>1. Indent (Left & Right): </h3> <p> पैराग्राफ के बाईं या दाईं ओर से स्पेस जोड़ता है। </p>
+
+            <h3> 2. Spacing (Before & After): </h3> <p> पैराग्राफ से पहले और बाद में स्पेस जोड़ता है, जिससे टेक्स्ट के बीच गैप बढ़ या घट सकता है। </p>
+
+
+        </div>
+    </main>
+
+    <main class="container">
+        <div class="card">
+            <h1>  Arrange Group और उनकी परिभाषाएँ:</h1> <p>यह ग्रुप तब सक्रिय होता है जब आप कोई object/shape/image को select करते हैं <p><br>
+
+            <h3>1. Position	: </h3> <p> किसी object (जैसे image) को पेज पर कहाँ रखना है, यह तय करता है। जैसे top-left, center, bottom-right आदि। </p>
+
+            <h3> 2. Wrap Text: </h3> <p> टेक्स्ट को image या object के चारों ओर कैसे flow करना है:In Line with Text, Square, Tight, Through, Top and Bottom, Behind Text,In Front of Text </p>
+
+            <h3>3.Bring Forward : </h3> <p>object को सामने लाता है (जब एक से अधिक object होते हैं)। Send Backward	object को पीछे ले जाता है। </p>
+
+            <h3>4.Selection Pane: </h3> <p>सभी object की लिस्ट दिखाता है, जिससे आप उन्हें select या hide/show कर सकते हैं। </p>
+
+            <h4>5. Align: </h4> <p>एक या अधिक object को पेज पर align करने की सुविधा देता है: Left, Center, Right, Top, Middle, Bottom </p>
+
+            <h3>6.Group	: </h3> <p>कई object को एक साथ group करता है ताकि वे एक साथ move या resize किए जा सकें। </p>
+
+            <h3>7. Rotate: </h3> <p> object को rotate करने की सुविधा देता है: Rotate Right, Rotate Left, Flip Vertical, Flip Horizontal आदि। </p>
+            
+
+
+        </div>
+    </main>
+  
+
+    
+    <footer>
+        <p>&copy; 2025 EduWorld. All rights reserved.</p>
+    </footer>
+</body>
+</html>

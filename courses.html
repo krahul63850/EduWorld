@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses - EduWorld</title>
+  <link rel="stylesheet" href="courses.css">
+  <style>* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #2c3e50;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.courses {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.courses h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.course-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #3498db;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 50px;
+}
+</style>
+</head>
+<body>
+  <header>
+    <h1>EduWorld - Courses</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="courses">
+    <h2>Our Popular Courses</h2>
+    <div class="course-buttons">
+      <a href="word page.html" class="btn">MS Word</a>
+      <a href="msexcel.html" class="btn">MS Excel</a>
+      <a href="mspowerpoint.html" class="btn">MS PowerPoint</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 EduWorld. All rights reserved.</p>
+  </footer>
+</body>
+</html>
